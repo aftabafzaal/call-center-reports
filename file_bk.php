@@ -3,22 +3,17 @@ include("connection.php");
 
 $campaingns=array('equinox_us','equinox_uk');
 
-$campaingnsTitle=
-array(
-    'equinox'=>'Equinox',
+$campaingnsTitle=array(    'equinox'=>'Equinox',
 );
 
 
 
-
-echo "<br/>";
 echo "<br/>";
 echo "---------- Inbound Calls Report:<br/>";
 echo "<br/>";
 echo "+----------------------+---------+---------+---------+---------+<br/>";
 echo "| Campaigns or Group                  | Received Calls   | Calls Abandoned 0-30 | Calls Drop | Answered Calls  | DROP %  | IVR     |<br/>"; 
 echo "+----------------------+---------+---------+---------+---------+----------------+----------------+-------------------+------------<br/>";
-
 
 
 foreach($campaingns as $campaingn_country){
