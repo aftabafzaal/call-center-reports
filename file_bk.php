@@ -1,5 +1,5 @@
 <?php
-include("connection.php");
+include_once("connection.php");
 
 $campaingns=array('equinox_us','equinox_uk');
 
